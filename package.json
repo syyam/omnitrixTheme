@@ -1,0 +1,36 @@
+{
+    "name": "omnitrix",
+    "displayName": "Omnitrix",
+    
+    "description": "It's black. It's green, inspired from Ben10 and that's very clever. It's a theme from another galaxy, your world will change forever! ",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    
+    
+    "categories": [
+        "Themes"
+    ],
+   
+    "contributes": {
+        "themes": [
+            {
+                "label": "The Omnitrix Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/The Omnitrix Theme-color-theme.json"
+            }
+        ]
+    },
+    "icon": "images/omnitrixlogo.png",
+    "galleryBanner": {
+        "color": "#C80000",
+        "theme": "dark"
+    },
+    "publisher": "syyam",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/syyam/omnitrixTheme.git"
+      }
+    
+}
